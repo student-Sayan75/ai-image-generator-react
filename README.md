@@ -18,7 +18,7 @@ This project was created as a React practice project to learn **React state mana
 
 ### 🔃 Loading
 
-![Loading](./screenshots/loading.png)
+![Loading](./screenshots/Loading.png)
 
 ### ✅ Result
 
