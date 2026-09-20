@@ -14,7 +14,7 @@ This project was created as a React practice project to learn **React state mana
 
 ### ❌ False Search
 
-![No Promt](./screenshots/NoPromptAlert.png)
+![No Promt](./screenshots/noPromptAlert.png)
 
 ### 🔃 Loading
 
