@@ -2,7 +2,7 @@
 
 A simple **AI Image Generator** built with **React.js** that allows users to describe an image using a text prompt and generate an AI-generated image using the **Hugging Face Inference API**.
 
-This project was created as a React practice project to learn **React state management, `useRef`, API integration, asynchronous functions, loading states, and dynamically displaying generated images**.
+This project was created as a React practice project to learn **React state management, API integration, asynchronous functions, loading states, and dynamically displaying generated images**.
 
 ---
 
@@ -14,15 +14,15 @@ This project was created as a React practice project to learn **React state mana
 
 ### ❌ False Search
 
-![AI Image Generator](./screenshots/noPromtAlert.png)
+![No Promt](./screenshots/noPromtAlert.png)
 
 ### 🔃 Loading
 
-![Generated Image](./screenshots/loading.png)
+![Loading](./screenshots/loading.png)
 
 ### ✅ Result
 
-![Generated Image](./screenshots/result.png)
+![Result](./screenshots/result.png)
 
 ---
 
@@ -50,7 +50,6 @@ This project was created as a React practice project to learn **React state mana
 - **Vite**
 - **React Hooks**
   - `useState`
-  - `useRef`
 
 ---
 
@@ -130,18 +129,6 @@ These states control:
 - User's image prompt
 - Currently displayed image
 - Loading status
-
----
-
-### `useRef`
-
-A `useRef` is created using:
-
-```js
-const inputRef = useRef(null);
-```
-
-It provides a reference to a DOM element without causing a re-render when its value changes.
 
 ---
 
@@ -296,7 +283,7 @@ Make sure `.env` is included in `.gitignore`:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/AI-Image-Generator.git
+git clone https://github.com/student-Sayan75/ai-image-generator-react
 ```
 
 Navigate to the project:
@@ -356,7 +343,6 @@ Through this project, I practiced:
 
 - React functional components
 - `useState`
-- `useRef`
 - Controlled inputs
 - Event handling
 - Async/Await

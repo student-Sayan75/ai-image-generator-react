@@ -8,8 +8,6 @@ const ImageGenerator = () => {
   const [image, setImage] = useState("/");
   const [loading, setLoading] = useState(false);
 
-  const inputRef = useRef(null);
-
   const generateImage = async () => {
     if (!prompt.trim()) {
       alert("Describe something first to generate image");
