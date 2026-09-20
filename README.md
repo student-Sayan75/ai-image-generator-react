@@ -59,18 +59,18 @@ This project was created as a React practice project to learn **React state mana
 ```text
 AI-Image-Generator/
 │
-├── public/
 │
 ├── src/
-│   ├── Assets/
-│   │   └── demoImage.png
+│   │
 │   │
 │   ├── Components/
-│   │   └── ImageGenerator.jsx
-│   │
+│   │   |── Assets/
+|   |   |       └── demoImage.png
+│   │   └── ImageGenerator/
+│   │           |──ImageGenerator.jsx
+|   |           └────ImageGenerator.css
+|   |
 │   ├── App.jsx
-│   ├── App.css
-│   ├── ImageGenerator.css
 │   ├── index.css
 │   └── main.jsx
 │
@@ -79,10 +79,9 @@ AI-Image-Generator/
 ├── index.html
 ├── package.json
 ├── package-lock.json
+├── screenshots/
 └── vite.config.js
 ```
-
-> Update the folder names above if your actual project structure is different.
 
 ---
 
